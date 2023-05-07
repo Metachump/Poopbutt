@@ -1,0 +1,39 @@
+/* SEO and Responsive Styles */
+
+/* Meta tags for SEO */
+<meta name='description' content='Create and purchase custom shirts with unique text-to-image designs'>
+<meta name='keywords' content='custom shirts, text-to-image, personalized'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+/* Responsive styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .text-to-image, .payment-form {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
+  input[type='text'] {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}

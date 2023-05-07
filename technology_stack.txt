@@ -1,0 +1,5 @@
+Front-end: React.js or AngularJS
+Back-end: Node.js or Ruby on Rails
+Database: MongoDB or MySQL
+Image processing: OpenCV or Pillow
+Payment gateway: Stripe or PayPal
